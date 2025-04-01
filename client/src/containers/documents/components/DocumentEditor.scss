@@ -1,0 +1,102 @@
+@import 'src/styles/colors.scss';
+@import 'src/styles/z-index.scss';
+
+.doc-editor-card {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+
+  .ant-card-body {
+    width: 1000px;
+    text-align: center;
+  }
+}
+
+.import-btn {
+  padding: 3px 15px;
+  height: 32px;
+  display: inline-block;
+  font-size: 15px;
+  color: #1677ff;
+  cursor: pointer;
+}
+
+.doc-history-item {
+  width: 100%;
+  cursor: pointer;
+  border: 2px solid #ffffff;
+  padding: 5px;
+
+  &.selected {
+    border: 1px solid rgba(83, 69, 243, 0.4);
+    border-radius: 10px;
+  }
+}
+
+#document-editor-container {
+  flex: 1;
+  flex-grow: 1;
+  padding: 16px 0 0;
+  position: relative;
+  width: calc(55% - 10px);
+  z-index: $documentEditorZIndex;
+  opacity: 1;
+  transition: all 0.3s ease;
+  .document-editor-content{
+    overflow: auto;
+    height: calc(100% - 20px);
+    @media screen and (max-width: 1299px) {
+      height: calc(100% - 66px);
+    }
+    @media screen and (max-width: 767px) {
+      .toolbar{
+        display: none;
+      }
+    }
+  }
+}
+
+.doc-editor-full-screen {
+  position: fixed!important;
+  left: 0;
+  top: 60px;
+  bottom: 0;
+  width: 100%!important;
+}
+
+.document-form {
+  .ant-form-item {
+    margin-bottom: 0;
+  }
+}
+
+#resizer {
+  width: 4px;
+  position: relative;
+  cursor: col-resize;
+  border-left: 1px solid rgba(255, 255, 255, 0.05);
+  background: #fff;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  z-index: $resizerZindex;
+
+  &:hover {
+    background: #eee;
+    >div {
+      display: block;
+    }
+  }
+
+  >div {
+    display: none;
+    margin-left: -28px;
+  }
+}
+
+.anticon-fullscreen,.anticon-fullscreen-exit {
+  &:hover {
+    color: $COLOR_PRIMARY;
+  }
+}

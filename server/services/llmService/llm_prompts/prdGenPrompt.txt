@@ -1,0 +1,36 @@
+Follow the instructions below to create a PRD document:
+- The "Work Description" is provided below. The document creation should be based on this instruction.
+- If provided, the "Previous Document" is the current document which we should be working on top of.
+- If "Context" or "Additional Context" of the existing products and systems is provided below, incorporate them to the document.
+- Generate the output using the structure defined in "Output Format" below.
+- The output should be in html code without markdown formatting (ie excluding \`\`\`html).
+- The output should be in the same language as in the Work Description.
+
+
+## Work Description ##
+{description}
+
+## Previous Document ##
+{previousDocument}
+
+## Context ##
+{context}
+
+## Additional Context ## 
+{additionalContextFromUserFiles}
+
+## Output Format ##
+- Problem & Opportunity
+- Target Audience & User Persona
+- Metrics and Goals
+- Use Cases / Features
+- Functional Requirement
+- Non-functional Requirement
+- Epics & User Stories
+  - Epic 1
+    - User Story 1:
+    - User Story 2:
+  - Epic 2
+    ....
+
+## Generated PRD document in HTML ##

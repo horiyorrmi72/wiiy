@@ -1,0 +1,17 @@
+@import 'src/styles/colors.scss';
+
+.doc-action-container {
+  div {
+    margin-right: 10px;
+    color: $COLOR_GRAY;
+    cursor: pointer;
+
+    &:hover {
+      color: $COLOR_PRIMARY;
+    }
+  }
+}
+
+.chat-msg p {
+  margin-bottom: 10px;
+}

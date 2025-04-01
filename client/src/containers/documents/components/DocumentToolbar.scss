@@ -1,0 +1,38 @@
+.document-toolbar{
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: white;
+  flex-wrap: wrap;
+  column-gap: 10px;
+
+  .ant-breadcrumb{
+    ol{
+      flex-wrap: nowrap;
+      overflow: hidden;
+    }
+    @media screen and (max-width: 767px) {
+      padding-left: 40px;
+      padding-top: 3px;
+    }
+    @media screen and (max-width: 575px) {
+      font-size: 13px;
+      .ant-breadcrumb-separator{
+        margin: 0 4px;
+      }
+    }
+  }
+
+  .breadcrumb-buttons{
+    gap: 15px;
+    width: fit-content;
+    margin: auto;
+    margin-top: -4px;
+    @media screen and (max-width: 842px) {
+      margin-top: 0;
+    }
+    @media screen and (max-width: 767px) {
+      gap: 10px;
+    }
+  }
+}

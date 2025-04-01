@@ -1,0 +1,28 @@
+Create a Technical Design Document with the following:
+- If "Additional Context" of the existing products and systems is provided below, incorporate them to the document.
+- It should consider the user feedback provided below.
+- It should describe the existing systems and how the new product requirements will be integrated into the existing systems.
+- It should follow the "Output Format" below. Apply appropriate headings (3 levels) to each section.
+- Diagrams should be in mermaid format, included in <div class="mermaid"> block in html format.
+- The generated document should be in html code without markdown formatting (ie excluding \`\`\`html).
+- The generated document is using the same language used in the 'User Feedback'.
+
+## Additional Context ## 
+{additionalContextFromUserFiles}
+
+## User Feedback ##
+{userFeedback}
+
+## Output Format ##
+- Background
+- Goals & Non-Goals
+- System Architecture
+  - Details
+  - System Architecture Diagram
+- Data Model
+  - Details
+  - Data schema <note: highlight the newly introduced fields>
+  - Data Flow Diagram
+- API Design
+- Alternatives Considered
+- Future Improvements

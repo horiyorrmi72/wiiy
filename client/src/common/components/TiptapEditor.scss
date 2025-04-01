@@ -1,0 +1,71 @@
+.editor-container {
+  background-color: #fff;
+  transition: all 0.3s;
+  outline: none;
+  font-size: 14px;
+  line-height: 1.5715;
+  min-height: 200px;
+  position: relative;
+  height: 100%;
+}
+
+.ProseMirror {
+  min-height: 32px;
+  outline: none;
+  font-size: 14px;
+  line-height: 1.5715;
+  padding-top: 4px;
+  padding-left: 10px;/* Ensure content padding */
+}
+
+.ProseMirror p {
+  margin: 0;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: start;
+  gap: 5px;
+  margin-bottom: 10px;
+  background: #fff; /* Background color to cover content */
+  padding: 10px 5px;
+  border-bottom: 1px solid #d9d9d9;
+  flex-wrap: wrap;
+}
+
+.tiptap p.is-editor-empty:first-child::before {
+  color: #adb5bd;
+  content: attr(data-placeholder);
+  float: left;
+  height: 0;
+  pointer-events: none;
+}
+
+.tiptap-table th,
+.tiptap-table td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.tiptap-table {
+  border-collapse: collapse;
+  margin: 8px;
+}
+
+.selection {
+  border-radius: 1px;
+  background: rgba(35, 131, 226, 0.28);
+  box-shadow: 0 0 0 1.2px rgba(35, 131, 226, 0.28);
+}
+
+.template-btn{
+  max-width: 220px;
+  span{
+    &:last-child{
+      width: calc(100% - 20px);
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+}

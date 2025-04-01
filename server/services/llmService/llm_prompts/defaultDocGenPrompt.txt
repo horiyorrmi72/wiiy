@@ -1,0 +1,20 @@
+Please follow the instructions below to create a document:
+- Follow specific instructions from the "User Instructions" defined below. If no "User Instructions" is provided, follow best practices to construct the document. Please discard instructions in the final output.
+- The "Work Description" is provided below. The document should be based on the work description.
+- If "Context" or "Additional Context" of the existing products and systems is provided below, incorporate them to the document.
+- It should be in html code without markdown formatting (ie excluding \`\`\`html).
+- It should be in the same language as in the Work Description.
+
+## User Instructions ##
+{promptText}
+
+## Context ##
+{context}
+
+## Additional Context ## 
+{additionalContextFromUserFiles}
+
+## Work Description ##
+{description}
+
+## Generated Document in HTML ##

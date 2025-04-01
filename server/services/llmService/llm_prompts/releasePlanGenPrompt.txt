@@ -1,0 +1,34 @@
+Follow the instructions below to create a release plan document:
+- "Additional Context" includes the development plan for the project. Please use that for the release plan creation.
+- It should consider the user feedback provided below.
+- It should follow the the structure of "Output Format" defined below.
+- Only include milestones and epics, but not stories and tasks.
+- It should be in html code without markdown formatting (ie excluding \`\`\`html).
+- It should be in the same language as in the "User Feedback"
+
+## Additional Context ## 
+{additionalContextFromUserFiles}
+
+## User Feedback ##
+{userFeedback}
+
+## Oupout Format ##
+- Releases
+  - Release 1
+    - Release Date
+    - Epics
+      - Epic 1
+      - Epic 2
+      - ...
+    - Release Checklist
+      - ...
+  - Release 2
+    - Release Date
+    - Epics
+      - Epic 1
+      - Epic 2
+      - ...
+    - Release Checklist
+      - ...
+
+## Generated Release Plan in HTML ##

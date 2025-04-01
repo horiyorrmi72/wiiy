@@ -1,0 +1,79 @@
+{
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.fixAll.stylelint": "explicit",
+      "source.removeUnusedImports": "explicit"
+    }
+  },
+  "editor.formatOnSave": true,
+  "prettier.singleQuote": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.fixAll.stylelint": "explicit",
+      "source.removeUnusedImports": "explicit"
+    }
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.fixAll.stylelint": "explicit",
+      "source.removeUnusedImports": "explicit"
+    }
+  },
+  "editor.tabSize": 2,
+  "workbench.editor.wrapTabs": false,
+  "editor.stickyScroll.enabled": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "editor.formatOnType": false,
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": false,
+    "scminput": false,
+    "yaml": false,
+    "typescript": true
+  },
+  "git.ignoreMissingGitWarning": true,
+  "window.zoomLevel": 1,
+  "files.exclude": {
+    "**/.git": true, // this is a default value
+    "**/.DS_Store": true, // this is a default value
+    "**/node_modules": true, // this excludes all folders
+    "**/bazel-testlogs": true, // this excludes all folders
+    // named "node_modules" from
+    // the explore tree
+    // alternative version
+    "node_modules": true, // this excludes the folder
+    // only from the root of
+    // your workspace
+    "**/*.pyc": true,
+    "bazel-bin/**": true,
+    "bazel-out/**": true,
+    "bazel-repo/**": true,
+    "bazel-Verkada-Backend/**": true
+  },
+  "git.ignoreLimitWarning": true,
+  "editor.codeActionsOnSave": {},
+  "[javascript][typescript][typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.fixAll.stylelint": "explicit",
+      "source.removeUnusedImports": "explicit"
+    }
+  },
+  "editor.inlineSuggest.showToolbar": "onHover",
+  "explorer.compactFolders": false,
+  "github.copilot.advanced": {},
+  "github.copilot.editor.enableAutoCompletions": true,
+  "typescript.tsdk": "node_modules\\typescript\\lib"
+}

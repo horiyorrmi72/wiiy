@@ -1,0 +1,30 @@
+Follow the instructions below to create a QA plan document:
+- "Additional Context" provides the details about the work requirement and features. Please use them for the QA Plan creation.
+- It should consider the user feedback provided below.
+- It should follow the "Output Format" defined below.
+- It should be in html code without markdown formatting (ie excluding \`\`\`html).
+- It should be in the same language as in the user feedback.
+
+
+## Additional Context ## 
+{additionalContextFromUserFiles}
+
+##User Feedback##
+{userFeedback}
+
+## Output Format ##
+- Goals
+- Test Cases
+  - Epic 1
+    - User Story 1
+      - Acceptance Criteria 1
+        - Test Case 1
+        - Test Case 2
+        - ...
+      - Acceptance Criteria 2
+        - Test Case 1
+        - Test Case 2
+        - ...
+- Additional Testing Considerations
+
+## Generated QA Plan in HTML ##
